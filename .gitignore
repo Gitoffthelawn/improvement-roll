@@ -1,71 +1,56 @@
-# OSX
-#
-.DS_Store
 
-# Xcode
-#
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
+!debug.keystore
 !default.mode1v3
-*.mode2v3
 !default.mode2v3
-*.perspectivev3
+!default.pbxuser
 !default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-
+#
 # Android/IntelliJ
-#
-build/
-.idea
-.gradle
-local.properties
-*.iml
-
+# BUCK
+# Bundle artifact
+# CocoaPods
+# For more information about the recommended setup visit:
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# OSX
+# Xcode
+# fastlane
+# https://docs.fastlane.tools/best-practices/source-control/
 # node.js
-#
+# screenshots whenever they are needed.
+*.hmap
+*.hprof
+*.iml
+*.ipa
+*.jsbundle
+*.keystore
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xccheckout
+*.xcuserstate
+*/fastlane/Preview.html
+*/fastlane/report.xml
+*/fastlane/screenshots
+.DS_Store
+.android-sdk/
+.gradle
+.idea
+/ios/Pods/
+DerivedData
+\.buckd/
+android/app/keystore.properties
+android/app/src/main/assets.android-sdk/
+android/app/src/main/assets/
+android/app/src/main/assets/index.android.bundle
+android/keystore.properties
+buck-out/
+build-release.gradle
+build/
+ios
+local.properties
 node_modules/
 npm-debug.log
+xcuserdata
 yarn-error.log
-
-# BUCK
-buck-out/
-\.buckd/
-*.keystore
-!debug.keystore
-
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
-
-*/fastlane/report.xml
-*/fastlane/Preview.html
-*/fastlane/screenshots
-
-# Bundle artifact
-*.jsbundle
-android/app/src/main/assets/index.android.bundle
-android/app/src/main/assets/
-
-# CocoaPods
-/ios/Pods/
-
-ios
-
-*.hprof
-build-release.gradle
-
-android/app/src/main/assets.android-sdk/
-.android-sdk/
-android/app/keystore.propertiesandroid/app/keystore.properties
-android/keystore.properties

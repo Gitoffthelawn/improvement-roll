@@ -88,19 +88,7 @@ export default ({navigation}) => {
   };
 
   const openGithub = () => {
-    Linking.canOpenURL(
-      'https://github.com/vukani-dev/improvement-roll.git',
-    ).then((supported) => {
-      if (supported) {
-        Linking.openURL('https://github.com/vukani-dev/improvement-roll.git');
-      } else {
-        // console.log(
-        //   "Don't know how to open URI: https://github.com/vukani-dev/improvement-roll.git",
-        // );
-        logger.logDebug("Don't know how to open URI: https://github.com/vukani-dev/improvement-roll.git",
-        );
-      }
-    });
+    Linking.openURL('https://github.com/vukani-dev/improvement-roll');
   };
 
   const _renderResetModal = () => {
@@ -321,7 +309,7 @@ export default ({navigation}) => {
             marginBottom: 15
           }}>
           <Kitten.Text selectable={true}>
-            1LBQjRRWNCAMfX7s364N2HE11rG18d9Rxy 
+            bc1qdt2qa2d80llkh5q868s0qur7ljdl6zy0kl00r9 
           </Kitten.Text>
         </Kitten.Layout>
         <Kitten.Layout
