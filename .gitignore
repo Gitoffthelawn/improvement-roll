@@ -67,4 +67,5 @@ build-release.gradle
 
 android/app/src/main/assets.android-sdk/
 .android-sdk/
-android/app/keystore.properties
+android/app/keystore.propertiesandroid/app/keystore.properties
+android/keystore.properties

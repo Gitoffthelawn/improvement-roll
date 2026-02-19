@@ -1,6 +1,6 @@
 {
   "name": "improvement_roll",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -10,7 +10,7 @@
     "build-android-release": "cd android && ./gradlew assembleRelease --info --stacktrace",
     "install-android-release": "cd android && ./gradlew installRelease",
     "build-and-install-release": "npm run clean-android && npm run build-android-release && npm run install-android-release",
-    "bundle-android": "mkdir -p android/app/src/main/assets && npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/",
+    "bundle-android": "mkdir -p android/app/src/main/assets && npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/"
   },
   "dependencies": {
     "@eva-design/eva": "2.0.0",

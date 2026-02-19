@@ -13,7 +13,7 @@ const SearchIcon = (props) => <Kitten.Icon {...props} name="search-outline" />;
 const BackIcon = (props) => <Kitten.Icon {...props} name="arrow-back" />;
 const filterTypes = ['name', 'author', 'tag'];
 const searchTypes = ['search', 'author', 'tags'];
-const shareServiceURL = "https://starfish-app-imisr.ondigitalocean.app/";
+const shareServiceURL = "https://improll-backend.binafsi.cloud/";
 
 export default ({ route, navigation }) => {
     const themeContext = React.useContext(ThemeContext);

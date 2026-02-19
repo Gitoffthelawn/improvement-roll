@@ -16,13 +16,13 @@ echo "Building signed release APK..."
 
 
 echo "Done! APK is available at:"
-echo "$(pwd)/app/build/outputs/apk/release/improvement-roll-1.4.0.apk"
+echo "$(pwd)/app/build/outputs/apk/release/improvement-roll-1.5.0.apk"
 
 # Check if user wants to install the APK to a connected device
 if [ "$1" == "--install" ]; then
   echo "Installing APK to connected device..."
   adb devices
-  adb install -r app/build/outputs/apk/release/improvement-roll-1.4.0.apk
+  adb install -r app/build/outputs/apk/release/improvement-roll-1.5.0.apk
 fi
 
 cd .. 
